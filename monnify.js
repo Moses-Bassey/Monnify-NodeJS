@@ -18,7 +18,6 @@ const MONIFYURL = isProduction ? process.env.MONIFY_PROD_URL : process.env.MONIF
 // const MONIFY_CLIENT_SECRET = "ZQAABGR77EXBHPLVDPG6YHY2H6NMSTH6";
 // //const CONTRACTCODE = isProduction ? process.env.CONTRACTCODE_PROD : process.env.CONTRACTCODE;
 // const MONIFYURL = "https://api.monnify.com";
-//"https://nws.nugitech.com/payments/callback/"
 
 const API = (path = '') => `${MONIFYURL}/api/v1/${path}`;
 const Bearer = (token) => ({
